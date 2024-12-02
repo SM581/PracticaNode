@@ -6,7 +6,7 @@ var server=http.createServer();
 //servicio web
 function mensaje(req,resp){
     resp.writeHead(200,{'content-type':'text/plain'});
-    resp.write('hola mundo');
+    resp.write('hola mundo_Sara Gómez');
     resp.end();
 }
 
